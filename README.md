@@ -95,6 +95,11 @@ digital payments.
 
 ### Order booked, Enjoy food!
 
+### Data Flow
+Our resturants updates available food items in realtime, so no need to stay outdated. Let now technology drive food industry.
+
+<img width="592" alt="Screenshot 2020-07-26 at 1 45 48 AM" src="https://user-images.githubusercontent.com/35291991/88465565-bce04800-cee1-11ea-952d-777846a1f699.png">
+
 
 * Android
 * Firebase
