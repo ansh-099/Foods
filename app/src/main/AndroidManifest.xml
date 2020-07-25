@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anshulsingh.foodpilu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddressActivity">
+
+        </activity>
+        <activity android:name=".checksum" >
+
+        </activity>
+        <activity android:name=".ScanQRcode" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupPage" />
+        <activity android:name=".SendOTP" />
+        <activity android:name=".EnterOTP" />
+        <activity android:name=".ProfilePage" />
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterHosters" />
+        <activity android:name=".Proceed_hoster" />
+        <activity android:name=".Proceed2_hosters" />
+        <activity android:name=".LoginSendOTPActivity" />
+        <activity android:name=".LoginVerifyOTPActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".RestaurantActivity" />
+        <activity android:name=".OneRestaurantMenu" />
+        <activity android:name=".Cart" />
+        <activity android:name=".GoogleSignIn" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyChY4ta0f1OKsFmWRxoshvUX32O7w59I4Y" />
+
+        <activity android:name=".PlacedOrderInvoice" />
+    </application>
+
+</manifest>

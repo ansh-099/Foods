@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cart">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/restnameCart"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000000"
+        android:text="Restaurant name"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:text="Restaurant Bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="sans-serif-condensed"
+                android:text="Item Total    "
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <TextView
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/totalCost"
+                    android:text="Total"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="111dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Packing Charges    "
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/totalPackCharge"
+                    android:text="Rs. 10"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="73dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="sans-serif-condensed"
+                android:text="Total"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:fontFamily="sans-serif-condensed"
+                android:id="@+id/totalFinal"
+                android:text="Total"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:layout_marginLeft="155dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/chboxTnC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:fontFamily="sans-serif-condensed"
+                android:outlineSpotShadowColor="#000000"
+                android:text="Want to get Delivered ?"
+                android:textColorHighlight="#000000" />
+
+            <TextView
+
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textAddressCart"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#d3d3d3"
+                android:text=" Address:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="top"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/when_not_typing"
+                android:id="@+id/etAdress"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/placeOrder"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="Place Order"
+                    app:cornerRadius="10dp"
+                    android:textSize="15dp"
+                    android:backgroundTint="#2E8B57"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

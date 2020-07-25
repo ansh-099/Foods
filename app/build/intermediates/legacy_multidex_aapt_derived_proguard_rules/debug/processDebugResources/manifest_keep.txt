@@ -1,0 +1,2 @@
+# Referenced at /Users/anshulsingh/Desktop/Android/FoodPiluAll/hey/FoodPilu Updated/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:32
+-keep class androidx.multidex.MultiDexApplication { <init>(...); }

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.infideap.drawerbehavior:drawer-behavior:0.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-drawer-behavior-0.0.5.aar/729327c547451d338e90aff56d569593/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-drawer-behavior-0.0.5.aar/729327c547451d338e90aff56d569593/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.infideap.drawerbehavior/drawer-behavior/0.0.5/72b41e9cded0ee1cd12fe494688a182e1b6d573b/drawer-behavior-0.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.infideap.drawerbehavior/drawer-behavior/0.0.5/c82099fa6a561e8a4a935374316c5eb27561664a/drawer-behavior-0.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
