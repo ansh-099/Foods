@@ -23,6 +23,24 @@ The main purpose is to improve the performance of the restaurant by eradicating 
 
 Food items get updated each time when available in realtime.
 
+## Features
+
+* For in-restaurant dining, QR Code integration has been
+done to eliminate the need of menus and waiters.
+* Log in access through email and social media has
+been given for the ease of access to user.
+* For online delivery, a dedicated restaurant page can be
+created for partnered restaurants through which menu,
+photos, description, rating, reviews can be viewed by
+the user.
+* To provide insights about previous orders, “My Orders”
+page has been created for each user through which
+previous orders can be viewed.
+* Online payments through Paytm have been integrated
+for both in-restaurant and online ordering platform to
+provide ease of access to users and promote use of
+digital payments.
+
 ## Process
 </br>
 * We have never seen you before. New to app? Signup:
@@ -76,6 +94,7 @@ Food items get updated each time when available in realtime.
 <img width="187" src="https://user-images.githubusercontent.com/35291991/88465392-560e5f00-cee0-11ea-8654-42839769e417.png">
 
 ### Order booked, Enjoy food!
+
 
 * Android
 * Firebase
