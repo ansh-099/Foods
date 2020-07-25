@@ -2,7 +2,7 @@
 
 Reached the resturant? Now want to have some food? Just fed up with long lines on counter while odering food? </br>
 
-Now releasing new a way to get food billing, just with few clicks. No need to go to the counter in the restaurant. This service is for both have it and take away.
+Now releasing a new way to get food billing, just with few clicks. No need to go to the counter in the restaurant. This service is for both have it and take away.
 
 
 ## Idea
