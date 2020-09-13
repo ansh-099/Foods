@@ -16,7 +16,7 @@ Our application aims to digitalise the process of various restaurant operations 
 
 The main purpose is to improve the performance of the restaurant by eradicating the daily paperwork. With this system the tasks would be performed in less amount of time and more efficiently.An additional benefit of this software is that during the rush hours the load can be balanced effectively, and restaurants would perform better than usual.The system would also result in reduction of labor which would result in the reduction of expenses of the restaurant.
 
-## Working/ Implementation
+## Working and Implementation
 
 * Reach the restaurant.
 * Get seated on a table.
