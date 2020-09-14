@@ -100,7 +100,7 @@ provide ease of access to users and promote use of
 digital payments.
 
 
-### Everything used are
+### Everything used is
  * [Firebase Authentication](https://firebase.google.com/docs/auth)
  * [Firebase Realtime Database](https://firebase.google.com/docs/database)
  * [Firebase Cloud Storage](https://firebase.google.com/docs/storage)
