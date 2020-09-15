@@ -69,9 +69,9 @@ Food items get updated each time when available in realtime.
 <td><img src = "https://user-images.githubusercontent.com/35291991/88465295-62de8300-cedf-11ea-9fcc-edc0f45cb1e8.png" height = "460" width="240"></td>
         </tr>
         <tr>
-<td><img src = "https://user-images.githubusercontent.com/35291991/93027450-83e36a80-f62a-11ea-8930-3ff752b8860a.png" height = "460" width="240"></td>
 <td><img src = "https://user-images.githubusercontent.com/35291991/88465370-1d6e8580-cee0-11ea-8f8c-08916065f326.png" height = "460" width="240"></td>
 <td><img src = "https://user-images.githubusercontent.com/35291991/88465392-560e5f00-cee0-11ea-8654-42839769e417.png" height = "460" width="240"></td>
+<td><img src = "https://user-images.githubusercontent.com/35291991/93027450-83e36a80-f62a-11ea-8930-3ff752b8860a.png" height = "460" width="240"></td>
         </tr>
 </table>
 
